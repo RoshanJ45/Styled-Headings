@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Headings</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #f6d365, #fda085);
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ffffff;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+            margin-bottom: 20px;
+            border-bottom: 4px solid #ffffff;
+            display: inline-block;
+            padding: 5px 20px;
+        }
+        h2 {
+            font-size: 2.5em;
+            color: #ffeb3b;
+            background: #333;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            font-size: 2em;
+            color: #4caf50;
+            border-left: 8px solid #4caf50;
+            padding-left: 15px;
+            text-align: left;
+            margin: 20px auto;
+            display: inline-block;
+        }
+        h4 {
+            font-size: 1.75em;
+            color: #2196f3;
+            background: #ffffff;
+            padding: 10px 20px;
+            display: inline-block;
+            border: 2px solid #2196f3;
+            border-radius: 8px;
+        }
+        h5 {
+            font-size: 1.5em;
+            color: #e91e63;
+            text-decoration: underline dotted;
+            margin-top: 20px;
+        }
+        h6 {
+            font-size: 1.2em;
+            color: #795548;
+            font-style: italic;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Main Heading - H1</h1>
+        <h2>Subheading - H2</h2>
+        <h3>Subsection Heading - H3</h3>
+        <h4>Smaller Section - H4</h4>
+        <h5>Minor Heading - H5</h5>
+        <h6>Least Important Heading - H6</h6>
+    </div>
+</body>
+</html>
